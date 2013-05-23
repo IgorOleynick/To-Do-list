@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>To Do list</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/mystyles.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src= "js/myscripts.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12 header">
+                <h1>To Do list</h1>
+            </div>
+        </div>
+    </div>
+    <form class="navbar-form pull-left">
+    <input type="text" class="span2" id="new" placeholder="What needs to be done?">
+    <hr />
+    <div class="alert alert-info">
+        <b>Add todo!</b> Type your todo text and press Enter.</div>
+    <ul id="list">
+    </ul>
+    <div class="btn-group">
+        <button class="btn" id="all">Mark all as complete</button>
+        <button class="btn" id="clear">Clear N completed items</button>
+    </div>
+    </form>
+</body>
+</html>
